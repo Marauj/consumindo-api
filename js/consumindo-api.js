@@ -23,7 +23,7 @@
 function RequestService() {
     senha   = "ipwise@9587";
     usuario = "apiWS";
-    $.ajax({
+    $.post({
         header: {
             'Content-Type': 'application/json;charset=UTF-8',
             'Transfer-Encoding':	'chunked',
