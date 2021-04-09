@@ -27,6 +27,7 @@ function RequestService() {
         header: {
             'Content-Type': 'application/json;charset=UTF-8',
             'Transfer-Encoding':	'chunked',
+            'User-Agent': 'github/Marauj',
             'Authorization': 'Basic YXBpV1M6aXB3aXNlQDk1ODc=> Accept: */*',
              'Set-Cookie':	'JSESSIONID=82E46233E98017C056F531BCF1B16986; Path=/B1iXcellerator; Secure; HttpOnly',
              'X-FRAME-OPTIONS':	'SAMEORIGIN',
