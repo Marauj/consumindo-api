@@ -8,7 +8,7 @@ function ajax() {
         },
         type: "POST",
         dataType: "json",
-        data: {username: usuario, password: senha},
+        data: {password: senha, username: usuario},
         success: function (result) {
             console.log(result);
         },
