@@ -1,7 +1,7 @@
 function ajax() {
     senha   = "ipwise@9587";
     usuario = "apiWS";
-    $.ajax({
+    $.post({
         url: "https://b1.ativy.com:9804/B1iXcellerator/exec/ipo/vP.0010000102.in_HCSX/com.sap.b1i.vplatform.runtime/INB_HT_CALL_SYNC_XPT/INB_HT_CALL_SYNC_XPT.ipo/proc/BuscaITM?pageNumber=1&rowsPerCall=10", 
         header: {
             'Content-Type': 'application/x-www-form-urlencoded'
@@ -13,12 +13,12 @@ function ajax() {
             console.log(result);
         },
         error: function (error) {
-            console.log(error);
+            console.log("error");
         }
     });   
 }
 
-// ajax();
+ajax();
 
 // function RequestService() {
 //     senha   = "ipwise@9587";
